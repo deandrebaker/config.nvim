@@ -8,4 +8,7 @@ return {
     version = '^6',
     lazy = false,
   },
+  {
+    'github/copilot.vim',
+  },
 }
