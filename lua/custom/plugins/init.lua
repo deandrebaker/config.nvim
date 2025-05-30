@@ -32,4 +32,10 @@ return {
       vim.api.nvim_set_keymap('n', '<leader>3', ':lua terminal:open(3)<cr>', silent)
     end,
   },
+  {
+    'karb94/neoscroll.nvim',
+    config = function()
+      require('neoscroll').setup {}
+    end,
+  },
 }
